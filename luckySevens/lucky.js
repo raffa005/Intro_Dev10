@@ -30,10 +30,10 @@ function lucky(){
 		}
 	}
 
-  document.getElementById("rolls").innerText = n;
+  	document.getElementById("rolls").innerText = n;
 	document.getElementById("res").style.display = "block";
 	document.getElementById("bet").innerText = ("$" + bet1.toFixed(2));
-  document.getElementById("count").innerText = wins.indexOf(max);
+  	document.getElementById("count").innerText = wins.indexOf(max);
 	document.getElementById("amount").innerText = ("$" + max.toFixed(2));
 	document.forms["input"]["bet1"].focus();
 	document.getElementById("sub").innerText = "Play Again";
